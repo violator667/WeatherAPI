@@ -7,6 +7,7 @@ System stores geolocation in Database for further use
 (to prevent unnecessary API calls as cities can't move ;-) ). Forecasts are stored in DB and cached for 2 minutes. 
 
 - [On-line demo](http://tasks.g0f.pl/).
+
 ####Used APIs:  
 - [Geolocation API](http://api.openweathermap.org/geo/1.0/)
 - [Openweathermap.org](https://api.openweathermap.org/data/2.5/)
