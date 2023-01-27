@@ -15,5 +15,3 @@ use \App\Http\Controllers\WeatherController;
 
 Route::get('/', [WeatherController::class, 'index'])->name('home');
 Route::post('/', [WeatherController::class, 'getWeather'])->name('weather');
-
-});
