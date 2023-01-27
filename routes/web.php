@@ -16,13 +16,4 @@ use \App\Http\Controllers\WeatherController;
 Route::get('/', [WeatherController::class, 'index'])->name('home');
 Route::post('/', [WeatherController::class, 'getWeather'])->name('weather');
 
-Route::get('/test/{city}', function () {
-    try {
-        $geo = new \App\Services\GeoApiService();
-        $geo->callApi(['q' => request()->get('city')]);
-
-    }catch (\App\Exceptions\WeatherApiException $e) {
-        return view('welcome')->with('message', $e);
-    }
-
 });
