@@ -8,7 +8,7 @@ System stores geolocation in Database for further use
 
 - [On-line demo](http://tasks.g0f.pl/).
 
-####Used APIs:  
+Used APIs:  
 - [Geolocation API](http://api.openweathermap.org/geo/1.0/)
 - [Openweathermap.org](https://api.openweathermap.org/data/2.5/)
 - [Weatherapi.org](http://api.weatherapi.com/v1/)
